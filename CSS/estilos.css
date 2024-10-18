@@ -1,0 +1,131 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #4a73b1, #92dccd, #dbe4cf,#fffefc,#ffe9ca);
+    
+    
+}
+header{
+    width: 100%;
+    color: white;
+    padding: 30px 15px;
+    margin: 0 auto;
+    border-bottom: 10px solid #56869c;
+    background: linear-gradient(to right, #f5deb3, #1e90ff, #f5deb3);
+    /*background-color: #2e2e2e;*/
+}
+
+.center{
+    text-align: center;
+}
+
+/*Barra de navegacion*/
+.navbar {
+    width: 960px;               
+    margin: 0 auto;            
+    padding: 10px 20px;
+    background-color: #333;    
+    color: white;   
+    align-items: center;           
+    border-radius: 0px 0px 20px 20px  ;
+}
+
+
+/* Estilos para el menú (start) */
+.navbar ul {
+    
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #555; 
+    border-radius: 20px;
+}
+
+/*POST - POST 1*/
+
+.post {
+    
+    padding: 20px;
+    margin: 20px auto 0;
+    width: 960px;
+    background-color: #DDBEAA;
+    color: black;
+    border: 5px solid #443e28; 
+    border-radius: 10px; 
+}
+
+.post-header{
+    text-align: center;
+}
+
+.post-body{
+    text-align: center;
+    
+}
+.post-body table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1px; 
+}
+
+.post-body th, td {
+    border: 2px solid #333; 
+    padding: 2px;
+    text-align: left;
+    background-color: #fff; 
+    border-radius: 0px;
+    border-radius: 5px 5px 0px 0px ;
+}
+.post-body td{
+    
+    border-radius:  0px ;
+}
+
+.post-body th {
+    background-color: #f2f2f2; 
+    border-radius: 5px 5px 0px 0px ;
+}
+
+
+
+#post-dos table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px; 
+}
+#post-body th, td {
+    
+    
+    text-align: left;
+    
+    border-radius: 10px  ;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #2e2e2e;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0;
+    
+}
